@@ -12,7 +12,7 @@ public class GuessingGame
     Scanner sc= new Scanner(System.in);
     // TO check if the user has guessed the number
     boolean flag = false;
-    System.out.println("A number between 1 and 100 is chosen.\nYou have"+ k+" tries to guess the number.");
+    System.out.println("A number between 1 and 100 is chosen.\nYou have "+ k+" tries to guess the number.");
     for(int i=1;i<=k;i++) 
     {
         System.out.println("Enter your guess: ");
